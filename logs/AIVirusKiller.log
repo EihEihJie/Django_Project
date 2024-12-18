@@ -1,0 +1,4 @@
+INFO 2024-12-18 22:53:48,105 autoreload 668 Watching for file changes with StatReloader
+INFO 2024-12-18 22:53:52,058 basehttp 213 "GET / HTTP/1.1" 200 12068
+WARNING 2024-12-18 22:53:52,525 log 248 Not Found: /favicon.ico
+WARNING 2024-12-18 22:53:52,526 basehttp 213 "GET /favicon.ico HTTP/1.1" 404 2215
