@@ -34,9 +34,10 @@ INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.messages',
+    'django.o.contrib.messages',contrib.sessions',
+    'djang
     'django.contrib.staticfiles',
+    'apps.users.apps.UsersConfig',
 ]
 
 MIDDLEWARE = [
@@ -168,7 +169,7 @@ LOGGING = {
             'class': 'logging.handlers.RotatingFileHandler',
             'filename': os.path.join(BASE_DIR, 'logs/AIVirusKiller.log'),  # 日志文件的位置
             'maxBytes': 300 * 1024 * 1024,
-            'backupCount': 10,
+            'backupCount': 10, #备份数量
             'formatter': 'verbose'
         },
     },
