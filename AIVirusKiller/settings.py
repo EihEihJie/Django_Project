@@ -181,3 +181,5 @@ LOGGING = {
         },
     }
 }
+##自定义用户模型替换系统的
+AUTH_USER_MODEL= 'users.User'
